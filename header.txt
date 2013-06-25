@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="/${res}/css/layout.css"  type="text/css" />
+	
+	<!-- old start-->
+    <link href="/${res}/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/${res}/css/public.css" type="text/css" />
+	<link href="${resSys}/front.css" rel="stylesheet" type="text/css"/>
+    
+	<!-- old end-->
+	<link href="/${res}/css/bmap.css" rel="stylesheet" type="text/css"/>
+		
+	
+	<title>珙县一定四通党群服务网</title>
+	<script src="/${res}/js/setTab.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/${res}/js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="/${res}/js/script.js"></script>
+
+</head>   
+<body>
+   
+	<div class="top">
+		<img src="/${res}/img/20130623/index_02.jpg" width="990" height="188" alt="">
+	</div>
+	<div class="menu">
+		<ul>
+			<li>
+				<a href="${base}/" class="hover">
+					首页
+				</a>
+			</li>
+			<li>
+				<a href="/about/index.jhtml">
+					机构简介
+				</a>
+			</li>
+			<li>
+				<a href="/home/index.jhtml">
+					工作动态
+				</a>
+			</li>
+			<li>
+				<a href="/discovery/index.jhtml">
+					党群互动
+				</a>
+			</li>
+			<li>
+				<a href="/imports/index.jhtml">
+					办事指南
+				</a>
+			</li>
+			<li>
+				<a href="/partyservice/index.jhtml">
+					志愿服务
+				</a>
+			</li>
+			<li>
+				<a href="/ygdw/index.jhtml">
+					阳光党务
+				</a>
+			</li>
+			<li>
+				<a href="/question/index.jhtml">
+					情况通报
+				</a>
+			</li>
+			<li>
+				<a href="/tv/index.jhtml">
+					通知公告
+				</a>
+			</li>
+			<li>
+				<a href="/imports/index.jhtml">
+					惠民政策
+				</a>
+			</li>
+			<li>
+				<a href="/tan/index.jhtml">
+					党员金点子
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="notice">
+		<strong>通知公告：</strong>
+		<marquee style=" width: 920px; height: 30px;" scrollamount="2" direction="left">
+			珙县一定四通党群服务网全新上线了!
+		</marquee>
+	</div>
+
+

@@ -1,0 +1,56 @@
+* {
+	/* A universal CSS reset */
+	margin:0;
+	padding:0;
+}
+#map {
+	/* The iphone frame div */
+	width:329px;
+	height:536px;
+	
+	position:relative;
+	
+}
+#webpage {
+	/* Contains the webpage screenshot */
+	width:329px;
+	height:536px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#webpage img {
+	border:none;
+}
+#retina {
+	/* The Retina effect */
+	background:url('images/bmap.jpg') no-repeat center center white;
+	border:2px solid white;
+	/* Positioned absolutely,so we can move it around */
+	position:absolute;
+	height:180px;
+	width:180px;
+	/* Hidden by default */
+	display:none;
+	/* A blank cursor,notice the default fallback */
+	cursor:pointer;
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:0 0 5px #777,0 0 10px #aaa inset;
+	-webkit-box-shadow:0 0 5px #777;
+	box-shadow:0 0 5px #777,0 0 10px #aaa inset;
+	/* CSS3 rounded corners */
+	-moz-border-radius:90px;
+	-webkit-border-radius:90px;
+	border-radius:90px;
+}
+#retina p {
+	padding:0px;
+	margin:0px;
+	margin-top:50px;
+	margin-left:20px;
+	line-height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#FF0000;
+	font-family:Arial,Helvetica,sans-serif;
+}

@@ -1,0 +1,847 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="layout.css"  type="text/css" />
+	
+	<!-- old start-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="public.css" type="text/css" />
+	<link href="${resSys}/front.css" rel="stylesheet" type="text/css"/>
+    
+	<!-- old end-->
+	<link href="bmap.css" rel="stylesheet" type="text/css"/>
+	
+	
+	<title>珙县一定四通党群服务网</title>
+	<script src="js/setTab.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>   
+<body>
+   
+	<div class="top">
+		<img src="images/index_02.jpg" width="990" height="188" alt="">
+	</div>
+	<div class="menu">
+		<ul>
+			<li>
+				<a href="${base}/" class="hover">
+					首页
+				</a>
+			</li>
+			<li>
+				<a href="/about/index.jhtml">
+					机构简介
+				</a>
+			</li>
+			<li>
+				<a href="/home/index.jhtml">
+					工作动态
+				</a>
+			</li>
+			<li>
+				<a href="/discovery/index.jhtml">
+					党群互动
+				</a>
+			</li>
+			<li>
+				<a href="/imports/index.jhtml">
+					办事指南
+				</a>
+			</li>
+			<li>
+				<a href="/partyservice/index.jhtml">
+					志愿服务
+				</a>
+			</li>
+			<li>
+				<a href="/ygdw/index.jhtml">
+					阳光党务
+				</a>
+			</li>
+			<li>
+				<a href="/question/index.jhtml">
+					情况通报
+				</a>
+			</li>
+			<li>
+				<a href="/tv/index.jhtml">
+					通知公告
+				</a>
+			</li>
+			<li>
+				<a href="/imports/index.jhtml">
+					惠民政策
+				</a>
+			</li>
+			<li>
+				<a href="/tan/index.jhtml">
+					党员金点子
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="notice">
+		<strong>通知公告：</strong>
+		<marquee style=" width: 920px; height: 30px;" scrollamount="2" direction="left">
+			珙县一定四通党群服务网全新上线了!
+		</marquee>
+	</div>
+
+
+
+<div class="main1">
+    <div class="main1_1">
+<SCRIPT language=javascript>
+	//图片滚动展示 Start
+	var counts = 5;
+	var bigImg = new Array();
+	//大图
+	var smallImg = new Array();
+	//小图
+	smallImg[0] = 'images/index_adb1.gif';
+	smallImg[1] = 'images/index_adb2.gif';
+	smallImg[2] = 'images/index_adb3.gif';
+	smallImg[3] = 'images/index_adb4.gif';
+	smallImg[4] = 'images/index_adb5.gif';
+	//链接地址
+url1 = new Image();url1.src = '#';
+img1= new Image();img1.src = "images/index_14.jpg";
+url2 = new Image();url2.src = '#';
+img2= new Image();img2.src = "images/index_63.jpg";
+url3 = new Image();url3.src = '#';
+img3= new Image();img3.src = "images/index_14.jpg";
+url4 = new Image();url4.src = '#';
+img4= new Image();img4.src = "images/index_63.jpg";
+url5 = new Image();url5.src = '#';
+img5= new Image();img5.src = "images/index_14.jpg";
+
+alt1 = new Image();alt1.alt = '1';alt2 = new Image();alt2.alt = '2';alt3 = new Image();alt3.alt = '3';alt4 = new Image();alt4.alt = '4';alt5 = new Image();alt5.alt = '5';
+	//
+	var nn = 1;
+	var key = 0;
+	function change_img() {
+		if (key == 0) {
+			key = 1;
+		} else if (document.all) {
+			document.getElementById("pic").filters[0].Apply();
+			document.getElementById("pic").filters[0].Play(duration = 2);
+		}
+		eval('document.getElementById("pic").src=img' + nn + '.src');
+		eval('document.getElementById("url").href=url' + nn + '.src');
+		eval('document.getElementById("pic").alt=alt' + nn + '.alt');
+		if (nn == 1) {
+			document.getElementById("url").target = "_blank";
+			document.getElementById("url").style.cursor = "pointer";
+		} else {
+			document.getElementById("url").target = "_blank"
+			document.getElementById("url").style.cursor = "pointer"
+		}
+
+		for ( var i = 1; i <= counts; i++) {
+			document.getElementById("xxjdjj" + i).className = 'axx';
+		}
+		document.getElementById("xxjdjj" + nn).className = 'bxx';
+		nn++;
+		if (nn > counts) {
+			nn = 1;
+		}
+		tt = setTimeout('change_img()', 3000);
+	}
+	function changeimg(n) {
+		nn = n;
+		window.clearInterval(tt);
+		change_img();
+	}
+	function ImageShow() {
+		document.write('<div class="picshow_main">');
+		document.write('<div><a id="url"><img id="pic" class="imgbig" /></a></div>');
+		document.write('<div class="picshow_change">');
+		for ( var i = 0; i < counts; i++) {
+			document.write('<a href="javascript:changeimg(' + (i + 1)
+					+ ');" id="xxjdjj' + (i + 1)
+					+ '" class="axx" target="_self"><img src="' + smallImg[i]
+					+ '"></a>');
+		}
+		document.write('</div></div>');
+		change_img();
+	}
+	//图片滚动展示 End
+</SCRIPT>
+<SCRIPT language=javascript type=text/javascript>
+      ImageShow();
+</SCRIPT>
+    </div>
+    <div class="main1_2">
+        <ul id="menu0">
+            <li class="one" onMouseMove="setTab(0,0)">
+                <a href="/photo/index.jhtml">
+                    中心新闻
+                </a>
+            </li>
+            <li onMouseOver="setTab(0,1)">
+                <a href="#">
+                    新闻动态
+                </a>
+            </li>
+            <li onMouseOver="setTab(0,2)">
+                <a href="#">
+                    视频新闻
+                </a>
+            </li>
+        </ul>
+        <div id="main0">
+            <ul class="one">
+                 [@cms_content_list channelId='13' count='6' descLen='60' orderBy='4' append='1' channelOption='1']
+					             [#list tag_list as a]		
+					              <li class="toptext line">
+					               <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+					             </li>
+					            [/#list]
+			     [/@cms_content_list]
+            </ul>
+            <ul>
+                [@cms_content_list channelId='11' count='6' descLen='60' orderBy='4' append='1'  channelOption='1']
+					             [#list tag_list as a]
+					              <li class="toptext line">
+					               <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+					             </li>
+					            [/#list]
+			    [/@cms_content_list]  
+               
+            </ul>
+            <ul>
+				
+					<div class="video">
+						<a target="_blank" href="/media/385.jhtml"><img src="r/cms/www/red/img/100.jpg" width="170px” height="170px" ></a>
+						<a target="_blank" href="/media/386.jhtml"><img src="r/cms/www/red/img/101.jpg" width="170px” height="170px"></a>
+						<a target="_blank" href="/media/290.jhtml"><img src="r/cms/www/red/img/102.jpg" width="170px” height="170px"></a>
+						<a target="_blank" href="/media/291.jhtml"><img src="r/cms/www/red/img/103.jpg" width="170px” height="170px"></a> 
+					</div>
+				
+                
+            </ul>
+        </div>
+    </div>
+    <div class="main1_3">
+        <div class="title">
+            一定四通党群服务网
+        </div>
+        <ul>
+            <li>
+                <a href="/party/index.jhtml" class="a1">
+                </a>
+            </li>
+            <li>
+                <a href="http://125.64.222.108:8081/login" class="a2">
+                </a>
+          </li>
+            <li>
+                <a href="netapply/index.jhtml" class="a3">
+                </a>
+          </li>
+            <li>
+                <a href="search/index.jhtml" class="a4">
+                </a>
+          </li>
+        </ul>
+    </div>
+</div>
+<div class="pic">
+    <a href="#">
+        <img src="images/index_38.jpg" width="495">
+    </a>
+    <a href="#">
+        <img src="images/index_39.jpg" width="495">
+    </a>
+</div>
+<div class="main2">
+    <div class="main2_1">
+        <div class="box1">
+            <div class="title">
+                阳光党务
+                <div class="more2">
+                    <a href="/ygdw/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul>
+                
+				 <li   class="toptext line">
+				  <a href="${base}/dtbm/index.jhtml" title="党群部门" target="_blank">党群部门</a>
+				 </li>
+				<li   class="toptext line">
+				  <a href="${base}/zfbm/index.jhtml" title="政府部门" target="_blank">政府部门</a>
+				 </li>
+				<li   class="toptext line">
+				  <a href="${base}/xz/index.jhtml" title="乡镇" target="_blank">乡镇</a>
+				 </li>
+				<li   class="toptext line">
+				  <a href="${base}/csq/index.jhtml" title="村社区" target="_blank">村（社区）</a>
+				 </li>				 
+				
+               
+            </ul>
+        </div>
+        <div class="box1">
+            <div class="title">
+                志愿服务
+                <div class="more2">
+                    <a href="/partyservice/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul>
+               [@cms_content_list channelId='87' count='4' descLen='60' orderBy='4'  append='...' channelOption='1']
+						      [#list tag_list as a]		
+						         <li  class="toptext line" >
+						          <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+						         </li>
+						      [/#list]
+				[/@cms_content_list]
+            </ul>
+        </div>
+        <div class="box1">
+            <div class="title">
+                党群互动
+                <div class="more2">
+                    <a href="/car/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul>
+				 [@cms_content_list channelId='63' count='4' descLen='60' orderBy='4'  append='...' channelOption='1']
+					  [#list tag_list as a]		
+						 <li class="toptext line">
+						  <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+						 </li>
+					  [/#list]
+	            [/@cms_content_list]
+            </ul>
+        </div>
+        <div class="box1">
+            <div class="title">
+                情况通报
+                <div class="more2">
+                    <a href="/question/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul>
+                [@cms_content_list channelId='83' count='4' descLen='60' orderBy='4' append='...' channelOption='1']
+				  [#list tag_list as a]		
+					 <li class="toptext line">
+					  <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+					 </li>
+				  [/#list]
+	            [/@cms_content_list]
+            </ul>
+        </div>
+        <div class="box1">
+            <div class="title">
+                惠民政策
+                <div class="more2">
+                    <a href="/imports/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul>
+                 [@cms_content_list channelId='70' count='4' descLen='60' orderBy='4' append='...' channelOption='1']
+				  [#list tag_list as a]		
+					 <li class="toptext line">
+					  <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+					 </li>
+				  [/#list]
+	            [/@cms_content_list]
+            </ul>
+        </div>
+        <div class="box1">
+            <div class="title">
+                党员金点子
+                <div class="more2">
+                    <a href="/tan/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul>
+                 [@cms_content_list channelId='84' count='4' descLen='60' orderBy='4' append='...' channelOption='1']
+						  [#list tag_list as a]		
+							 <li class="toptext line" >
+							  <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a> 
+							 </li>
+						  [/#list]
+	            [/@cms_content_list]
+            </ul>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="jiceng">
+            <img src="images/index_54.jpg" width="227" height="48" alt="">
+            <div class="ht">
+                <a href="${base}/jeeadmin/jeecms/index.do" target="_blank">
+                    <img src="images/index_58.jpg" width="222" height="33" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="main2_1_1">
+            
+			<!--<img src="imgs/index_63.jpg" width="329" height="536" alt="map" usemap="#Map" />-->
+			
+			<div id="map">
+				<div id="webpage">
+					<img src="images/index_63.jpg" width="329" height="536" alt="map" usemap="#Map" />
+					<div id="retina"></div>
+				   </div>
+			</div>
+		 
+        </div>
+        <div class="main2_1_2">
+            <div class="main2_1_2_1">
+                <ul id="menu1">
+                    <li class="one" onMouseMove="setTab(1,0)">
+                        <a href="#">
+                            市民办事
+                        </a>
+                    </li>
+                    <li onMouseOver="setTab(1,1)">
+                        <a href="#">
+                            企业办事
+                        </a>
+                    </li>
+                    <li onMouseOver="setTab(1,2)">
+                        <a href="#">
+                            投资定向
+                        </a>
+                    </li>
+                </ul>
+                <div id="main1">
+                    <ul class="one">
+                        <li>
+                            <a href="planningService/index.jhtml">
+                                生育服务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="censusRegister/index.jhtml">
+                                户籍身份
+                            </a>
+                        </li>
+                        <li>
+                            <a href="certificate/index.jhtml">
+                                证照申领
+                            </a>
+                        </li>
+                        <li>
+                            <a href="education/index.jhtml">
+                                教育培训
+                            </a>
+                        </li>
+                        <li>
+                            <a href="soldier/index.jhtml">
+                                兵役服务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="socialEnsure/index.jhtml">
+                                社会保障
+                            </a>
+                        </li>
+                        <li>
+                            <a href="medical/index.jhtml">
+                                医疗保健
+                            </a>
+                        </li>
+                        <li>
+                            <a href="employment/index.jhtml">
+                                劳动就业
+                            </a>
+                        </li>
+                        <li>
+                            <a href="landHouse/index.jhtml">
+                                土地房屋
+                            </a>
+                        </li>
+                        <li>
+                            <a href="travel/index.jhtml">
+                                交通旅游
+                            </a>
+                        </li>
+                        <li>
+                            <a href="marry/index.jhtml">
+                                婚姻服务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tax/index.jhtml">
+                                工商税务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="entertainment/index.jhtml">
+                                文化娱乐
+                            </a>
+                        </li>
+                        <li>
+                            <a href="policeLaw/index.jhtml">
+                                公安法律
+                            </a>
+                        </li>
+                        <li>
+                            <a href="consume/index.jhtml">
+                                消费权益
+                            </a>
+                        </li>
+                        <li>
+                            <a href="socialHelp/index.jhtml">
+                                社会救助
+                            </a>
+                        </li>
+                        <li>
+                            <a href="immigrationService/index.jhtml">
+                                处境入境
+                            </a>
+                        </li>
+                        <li>
+                            <a href="endowmentInsurance/index.jhtml">
+                                养老保险
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cateringAccommodation/index.jhtml">
+                                餐饮食宿
+                            </a>
+                        </li>
+                        <li>
+                            <a href="publicUtility/index.jhtml">
+                                公用事业
+                            </a>
+                        </li>
+                        <li>
+                            <a href="funeralServices/index.jhtml">
+                                殡葬服务
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="projectExamine/index.jhtml">
+                                项目审批
+                            </a>
+                        </li>
+                        <li>
+                            <a href="HR/index.jhtml">
+                                人力资源
+                            </a>
+                        </li>
+                        <li>
+                            <a href="intellectualProperty/index.jhtml">
+                                知识产权
+                            </a>
+                        </li>
+                        
+                    </ul>
+					<ul>
+						<li>
+                            <a href="cityTravel/index.jhtml">
+                                城市交通
+                            </a>
+                        </li>
+						<li>
+                            <a href="cityEnvironment/index.jhtml">
+                                城市环境
+                            </a>
+                        </li>
+						
+						<li>
+                            <a href="lifeDevelopment/index.jhtml">
+                                民生改善
+                            </a>
+                        </li>
+					</ul>
+                </div>
+            </div>
+            <div class="main2_1_2_2">
+                <ul id="menu2">
+                    <li class="one">
+                        <a href="#">
+                            场景服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            惠民政策问答
+                        </a>
+                    </li>
+                </ul>
+                <ul class="main2_1_2_2_ul">
+                    <li>
+                        <a href="iddos/index.jhtml">
+                            <img src="images/index_76.jpg" width="66" height="66" alt="">
+                            <br>
+                            户籍办理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="marriage/index.jhtml">
+                            <img src="images/index_78.jpg" width="66" height="66" alt="">
+                            <br>
+                            婚姻生育
+                        </a>
+                    </li>
+                    <li>
+                        <a href="medicalInsure/index.jhtml">
+                            <img src="images/index_80.jpg" width="66" height="66" alt="">
+                            <br>
+                            医疗保险
+                        </a>
+                    </li>
+                    <li>
+                        <a href="endowment/index.jhtml">
+                            <img src="images/index_82.jpg" width="66" height="66" alt="">
+                            <br>
+                            养老保险
+                        </a>
+                    </li>
+                    <li>
+                        <a href="work/index.jhtml">
+                            <img src="images/index_84.jpg" width="66" height="66" alt="">
+                            <br>
+                            劳动就业
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="main2_1_2_3">
+                <div class="title">
+                    办事指南
+                    <div class="more2">
+                        <a href="doGuides/index.jhtml">
+                            更多
+                        </a>
+                    </div>
+                </div>
+                <ul>
+				 [@cms_content_list channelId='100' count='4' descLen='60' orderBy='4'  append='...' channelOption='1']
+						      [#list tag_list as a]		
+						         <li  class="toptext line" >
+						          <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+						         </li>
+						      [/#list]
+				[/@cms_content_list]
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main2_2">
+        <div class="box2">
+            <div class="title">
+                本网信息检索
+                <!--<div class="more1">
+                    <a href="#">
+                        高级检索
+                    </a>
+                </div>-->
+            </div>
+            <div class="content1">
+				<form action="${base}/search.jspx" target="_blank" id="s">
+					<input name="q" value="${q!'请输入关键词'}" type="text" id="txtKey" onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'" maxlength="24" autocomplete="off" />
+					<input type="submit" value="" id="btnSearch">
+				 </form>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="title">
+                在线调查
+                <div class="more2">
+                    <a href="onlineSurvey/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul class="content2">
+                   [@cms_content_list channelId='99' count='4' descLen='60' orderBy='4' append='...' channelOption='1']
+						  [#list tag_list as a]		
+							 <li >
+							  <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a> 
+							 </li>
+						  [/#list]
+	            [/@cms_content_list]
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="title">
+                群众诉求办理
+                <!--<div class="more2">
+                    <a href="#">
+                        更多
+                    </a>
+                </div>-->
+            </div>
+            <ul class="content2">
+                <li style="width:200px;"><a href="http://125.64.222.108/examples/index.jsp"><span>人民网地方领导留言版</span></a></li>
+				<li style="margin-right:10px;"><a href="http://125.64.222.108/examples/index1.jsp"><span>省长信箱</span></a></li>
+				<li><a href="http://125.64.222.108/examples/index2.jsp"><span>市民热线</span></a></li>
+				<li style="margin-right: 10px;"><a href="http://125.64.222.108/examples/index3.jsp"><span>县长信箱</span></a></li>
+				<li><a href="http://125.64.222.108/examples/index4.jsp"><span>党群服务</span></a></li>
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="title">
+                评比统计
+                <div class="more2">
+                    <a href="statistic/index.jhtml">
+                        更多
+                    </a>
+                </div>
+            </div>
+            <ul class="content2">
+                [@cms_content_list channelId='97' count='6' descLen='60' orderBy='4' append='1'  channelOption='1']
+					             [#list tag_list as a]
+					              <li class="toptext line">
+					               <a href="${a.url}" title="${a.title}" target="_blank">${a.stit}</a>
+					             </li>
+					            [/#list]
+			    [/@cms_content_list]  
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="title">
+                办件查询
+            </div>
+            <div class="content3">
+                办件编号：
+                <br>
+                <input type="text" class="input1">
+                <br>
+                关键字：
+                <br>
+                <input type="text" class="input1">
+                <br>
+                <a href="http://125.64.222.108:8080/Gxydst/login"><img src="/r/cms/www/red/img/cxbtn.jpg"></a>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="title">
+                网站统计
+            </div>
+            <ul class="content2">
+                <li class="li1">
+                    总浏览量：<script language="javascript" type="text/javascript" src="http://quote.51.la/?id=4884734&amp;mb=1"></script>次
+                </li>
+                <li class="li1">
+                    今日访问：4次
+                </li>
+                <li class="li1">
+                    日均访问：5次
+                </li>
+                <li class="li1">
+                    当前在线：2次
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="pic">
+    <a href="#">
+        <img src="images/index_67-97.jpg" width="990">
+    </a>
+</div>
+<div class="friendlink">
+    
+		
+		 <div style="float:left; width:970px;  margin:5px 0 0 -20px;">	
+			<ul>
+				<li>
+					<a href="http://www.ybrc.gov.cn"><img src="images/index_66.gif" width="90" height="30" border="0" style="float:left; margin-left:10px;" /></a>
+				</li>
+				<li>
+					<a href="http://gx.ybxww.com"><img src="images/index_73.gif" width="87" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.people.com.cn"><img src="images/index_75.gif" width="90" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+				</li>
+				<li>
+				   <a href="http://www.gov.cn"><img src="images/index_68.gif" width="88" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.chinadaily.com.cn/gb/menyu.html"><img src="images/index_70.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+				</li>
+				<li>
+					<a href="http://gb.cri.cn"><img src="images/index_83.gif" width="89" height="31" border="0" style="float:left; margin-left:38px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.newssc.org"><img src="images/index_78.gif" width="88" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.scol.com.cn/"><img src="images/index_80.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+				</li>
+			</ul>	
+		</div>	
+			
+		
+		 <div style="float:left; width:970px;  margin:5px 0 0 -20px;">	
+			<ul>
+				<li>
+					<a href="http://zwfwzx.yb.gov.cn/"><img src="images/index_94.gif" width="90" height="30" border="0" style="float:left; margin-left:10px;" /></a>
+		
+				</li>
+				<li>
+					<a href="http://www.xinhuanet.com"><img src="images/index_93.gif" width="87" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.ygdt.net"><img src="images/index_97.gif" width="90" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+           
+				</li>
+				<li>
+				   <a href="http://www.ybgjj.com"><img src="images/index_99.gif" width="88" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.ybrc.gov.cn"><img src="images/index_105.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.yb999.com"><img src="images/index_100.gif" width="89" height="31" border="0" style="float:left; margin-left:38px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://http://www.ybgkz.com"><img src="images/index_102.gif" width="88" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.cjlyjt.com"><img src="images/index_104.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+				</li>
+			</ul>	
+		</div>	
+		
+		
+</div>
+<div class="foot">
+    Copyright &copy 2013 www.gxdqfw.gov.cn ALL Rights Reservied. 版权所有.珙县组织部
+    珙县政务中心
+    <br>
+    <a href="${base}/jeeadmin/jeecms/index.do" target="_blank">
+        管理登陆
+    </a>
+    建议使用1024*768以上的屏幕分辨率和6.0以上版本的IE来访问本站
+    <br>
+    联系方式：4312345 E-mail：sqyjlyc@hotmail.com
+    <img src="images/index_100.jpg">
+    蜀ICP备09030528号 宜宾网监备案号：5115000288
+</div>
+</body>
+
+</html>

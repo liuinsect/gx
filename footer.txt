@@ -1,0 +1,92 @@
+﻿<div class="pic">
+    <a href="#">
+        <img src="/${res}/img/20130623/index_67-97.jpg" width="990">
+    </a>
+</div>
+<div class="friendlink">
+    
+		
+		 <div style="float:left; width:970px;  margin:5px 0 0 -20px;">	
+			<ul>
+				<li>
+					<a href="http://www.ybrc.gov.cn"><img src="/${res}/img/20130623/index_66.gif" width="90" height="30" border="0" style="float:left; margin-left:10px;" /></a>
+				</li>
+				<li>
+					<a href="http://gx.ybxww.com"><img src="/${res}/img/20130623/index_73.gif" width="87" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.people.com.cn"><img src="/${res}/img/20130623/index_75.gif" width="90" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+				</li>
+				<li>
+				   <a href="http://www.gov.cn"><img src="/${res}/img/20130623/index_68.gif" width="88" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.chinadaily.com.cn/gb/menyu.html"><img src="/${res}/img/20130623/index_70.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+				</li>
+				<li>
+					<a href="http://gb.cri.cn"><img src="/${res}/img/20130623/index_83.gif" width="89" height="31" border="0" style="float:left; margin-left:38px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.newssc.org"><img src="/${res}/img/20130623/index_78.gif" width="88" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+				</li>
+				<li>
+					<a href="http://www.scol.com.cn/"><img src="/${res}/img/20130623/index_80.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+				</li>
+			</ul>	
+		</div>	
+			
+		
+		 <div style="float:left; width:970px;  margin:5px 0 0 -20px;">	
+			<ul>
+				<li>
+					<a href="http://zwfwzx.yb.gov.cn/"><img src="/${res}/img/20130623/index_94.gif" width="90" height="30" border="0" style="float:left; margin-left:10px;" /></a>
+		
+				</li>
+				<li>
+					<a href="http://www.xinhuanet.com"><img src="/${res}/img/20130623/index_93.gif" width="87" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.ygdt.net"><img src="/${res}/img/20130623/index_97.gif" width="90" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+           
+				</li>
+				<li>
+				   <a href="http://www.ybgjj.com"><img src="/${res}/img/20130623/index_99.gif" width="88" height="32" border="0" style="float:left; margin-left:34px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.ybrc.gov.cn"><img src="/${res}/img/20130623/index_105.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.yb999.com"><img src="/${res}/img/20130623/index_100.gif" width="89" height="31" border="0" style="float:left; margin-left:38px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://http://www.ybgkz.com"><img src="/${res}/img/20130623/index_102.gif" width="88" height="32" border="0" style="float:left; margin-left:38px;" /></a>
+      
+				</li>
+				<li>
+					<a href="http://www.cjlyjt.com"><img src="/${res}/img/20130623/index_104.gif" width="87" height="31" border="0" style="float:left; margin-left:36px;" /></a>
+				</li>
+			</ul>	
+		</div>	
+		
+		
+</div>
+<div class="foot">
+    Copyright &copy 2013 www.gxdqfw.gov.cn ALL Rights Reservied. 版权所有.珙县组织部
+    珙县政务中心
+    <br>
+    <a href="${base}/jeeadmin/jeecms/index.do" target="_blank">
+        管理登陆
+    </a>
+    建议使用1024*768以上的屏幕分辨率和6.0以上版本的IE来访问本站
+    <br>
+    联系方式：4312345 E-mail：sqyjlyc@hotmail.com
+    <img src="/${res}/img/20130623/index_100.jpg">
+    蜀ICP备09030528号 宜宾网监备案号：5115000288
+</div>
+</body>
+
+</html>
